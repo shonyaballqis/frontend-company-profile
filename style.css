@@ -215,3 +215,28 @@ footer {
     color: #777777;
     border-top: 1px solid #eaeaea;
 }
+
+/* ===============================
+   BURGER MENU & OVERLAY (DESKTOP DEFAULT) PUTRI
+================================ */
+
+/* Burger disembunyikan di desktop */
+.burger {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Overlay default (hidden) */
+.menu-overlay {
+  display: none;
+}
+
+.menu-panel a.active {
+  background-color: #faf6f8;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #d96694ff;
+}
