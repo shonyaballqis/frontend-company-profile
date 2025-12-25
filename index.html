@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luméra Beauty — Company Profile</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -17,8 +19,8 @@
         </div>
 
         <!-- Navigation -->
-        <nav>
-            <ul>
+        <nav class="navbar"> <!--aku nambahin ini-->
+            <ul class="nav-links"> <!--aku nambahin ini-->
                 <li><a href="#about">About</a></li>
                 <li><a href="#products">Products</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -28,9 +30,23 @@
             <!-- Toggle Theme & Burger Menu (placeholder struktur) -->
             <div class="nav-actions">
                 <button id="theme-toggle">Theme</button>
-                <button id="burger-menu">☰</button>
+                <button id="burger-menu" class="burger">☰</button> <!--aku nambahin ini-->
             </div>
         </nav>
+
+        <!--aku nambahin ini-->
+        <!-- OVERLAY -->
+<div class="menu-overlay">
+  <div class="menu-panel">
+    <button class="close-menu">✕</button>
+
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+      <!--sampai ini-->  
     </header>
 
     <!-- Main Content -->
@@ -107,6 +123,9 @@
     <footer>
         <p>&copy; 2025 Luméra Beauty. All rights reserved.</p>
     </footer>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>
