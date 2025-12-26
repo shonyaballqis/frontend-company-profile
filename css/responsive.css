@@ -36,7 +36,7 @@
   .menu-panel {
     width: 75%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #ffffffff;
     padding: 30px;
     display: flex;
     flex-direction: column;
